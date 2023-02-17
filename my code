@@ -1,0 +1,15 @@
+var a=(userInput[0].split(" "))
+var b=a[0].split("");
+var c=a[1].split("");
+var d=[];
+var e=[];
+for (var i=0;i<b.length;i++){
+    if(b[i]=="a"||b[i]=="e"||b[i]=="i"||b[i]=="o"||b[i]=="u"){
+        d.push(b[i]);
+    }
+}
+for (var h=0;h<c.length;h++){
+    if(c[h]==="a"||c[h]=="e"||c[h]=="i"||c[h]=="o"||c[h]=="u"){
+        e.push(c[h]);
+    }
+}console.log(d.join(""),e.join(""))
